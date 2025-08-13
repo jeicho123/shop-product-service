@@ -22,7 +22,7 @@ index.get('/health', (req, res) => {
 
 // Test route (feature branch demo)
 index.get('/test', (_req, res) => {
-    res.json({ msg: 'Testing' });
+    res.json({ msg: 'Testing v0.1.1' });
 });
 
 // Get all products
