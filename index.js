@@ -20,6 +20,11 @@ index.get('/health', (req, res) => {
     res.status(200).send('OK');
 });
 
+// Test route (feature branch demo)
+index.get('/test', (_req, res) => {
+    res.json({ msg: 'Testing' });
+});
+
 // Get all products
 index.get('/products', async (req, res) => {
     try {
