@@ -67,6 +67,6 @@ index.post('/products', async (req, res) => {
 });
 
 const PORT = process.env.PORT || 3001;
-index.listen(PORT, () => {
+index.listen(PORT, "0.0.0.0", () => {
     console.log(`Product service running on port ${PORT}`);
 });
